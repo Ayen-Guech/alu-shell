@@ -1,4 +1,4 @@
-[200~#!/usr/bin/env bash
+#!/usr/bin/env bash
 #IP+HTTP status code from the Apache log file
 
-awk '{print $1,$9}' apache-access.lo:ig
+awk '{print $1,$9}' apache-access.log
