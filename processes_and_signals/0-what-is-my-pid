@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-echo $$
+# Get the process ID of the current process.
+pid=$(ps -p $$ -o pid=)
+# Print the process ID to the terminal.
+echo $pid
+
