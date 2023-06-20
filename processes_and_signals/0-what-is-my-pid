@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-echo $$ > pid.txt
-echo "The PID of this script is $(cat pid.txt)."
+echo $$
